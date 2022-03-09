@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>범어아트스트리트</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/jquery.easing.min.js"></script>
+    <script src="./js/jquery.transform.2d.js"></script>
+    <script src="./js/function.js"></script>
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <h1>
+                <a href="#">logo</a>
+            </h1>
+            <ul class="siteMap">
+                <li>
+                    <a href="#">HOME</a>
+                </li>
+                <li>
+                    <a href="#">LOCATION</a>
+                </li>
+                <li class="siteMap-total">
+                    <a href="#">전체메뉴 열기</a>
+                </li>
+            </ul>
+
+            <!-- 전체메뉴 초기 화면에서 숨김 -->
+            <nav class="total">
+                <h2>범어 아트스트리트 <span>전체메뉴</span></h2>
+                <ul class="gnb">
+                    <li>
+                        <a href="#">범어 아트스트리트</a>
+                        <ol class="lnb">
+                            <li><a href="#">인사말</a></li>
+                            <li><a href="#">운영목적</a></li>
+                            <li><a href="#">오시는 길</a></li>
+                            <li><a href="#">행정서비스 헌장</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="#">시설안내</a>
+                        <ol class="lnb">
+                            <li><a href="#">스페이스</a></li>
+                            <li><a href="#">스튜디오</a></li>
+                            <li><a href="#">벽면갤러리</a></li>
+                            <li><a href="#">문화예술교육체험실</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="#">범어아트클래스</a>
+                        <ol class="lnb">
+                            <li><a href="#">교육프로그램 신청</a></li>
+                            <li><a href="#">교육프로그램 조회</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="#">행사일정</a>
+                        <ol class="lnb">
+                            <li><a href="#">행사일정안내</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="#">알림마당</a>
+                        <ol class="lnb">
+                            <li><a href="#">언론보도</a></li>
+                            <li><a href="#">공지사항</a></li>
+                            <li><a href="#">자주묻는 질문</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="#">갤러리</a>
+                    </li>
+                    <li class="quickLink">
+                        <p><a href="#">교육프로그램 &nbsp; &gt;</a></p>
+                        <p><a href="#">공지사항 &nbsp; &gt;</a></p>
+                    </li>
+                </ul>
+            </nav>
+
+            
+            <nav class="head">
+                <ul class="gnb">
+                    <li>
+                        <a href="#">범어 아트스트리트</a>
+                        <ol class="lnb">
+                            <li><a href="#">인사말</a></li>
+                            <li><a href="#">운영목적</a></li>
+                            <li><a href="#">오시는 길</a></li>
+                            <li><a href="#">행정서비스 헌장</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="#">시설안내</a>
+                        <ol class="lnb">
+                            <li><a href="#">스페이스</a></li>
+                            <li><a href="#">스튜디오</a></li>
+                            <li><a href="#">벽면갤러리</a></li>
+                            <li><a href="#">문화예술교육체험실</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="#">범어아트클래스</a>
+                        <ol class="lnb">
+                            <li><a href="#">교육프로그램 신청</a></li>
+                            <li><a href="#">교육프로그램 조회</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="#">행사일정</a>
+                        <ol class="lnb">
+                            <li><a href="#">행사일정안내</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="#">알림마당</a>
+                        <ol class="lnb">
+                            <li><a href="#">언론보도</a></li>
+                            <li><a href="#">공지사항</a></li>
+                            <li><a href="#">자주묻는 질문</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="#">갤러리</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="popup">
+            <h2>
+                <a href="#">
+                    팝업
+                    <span>
+                        보기
+                    </span>
+                </a>
+            </h2>
+            <div class="popup-win">
+                <ul class="popup-win-slide">
+                    <li class="on">
+                        <a href="#">
+                            범어아트스트리트 인스타그램 팔로우 GO!
+                            @beomeo_artstreet
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            지금 진행하는 아트클래스 만나보기 
+                            문의전화 053-430-126~7
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            코로나바이러스 감염증-19
+                            신속한 정보를 확인하세요
+                        </a>
+                    </li>
+                </ul>
+    
+                <ul class="popup-win-menu">
+                    <li class="on">
+                        <a href="#">
+                            범어아트스트리트 <br />인스타그램
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            범어아트클래스
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            코로나 바이러스 <br />정보확인
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="popup-win-move_slide">
+                    <li class="prev_popup">
+                        <a href="#">
+                            prev <br />
+                            &lt;
+                        </a>
+                    </li>
+                    
+                    <li class="next_popup">
+                        <a href="#">
+                            next <br />
+                            &gt;
+                        </a>
+                    </li>
+                </ul>
+
+
+            </div>
+
+        </section>
+
+        <section class="visual">
+            <article>
+                <div>
+                    <h2>
+                        <span>범어아트스트리트</span>
+                        <span>범어길프로젝트 4부</span>
+                        Music festical rebirth
+                    </h2>
+        
+                    <p>2020. 12. 08. ~2020. 12. 27.</p>
+                    <p><span>장소</span>범어아트스트리트 스페이스 1~2</p>
+                </div>
+    
+                <p class="fame">
+                    <img src="./images/main/img_visual20201208.jpg" alt="범어스트리트 범어길 4부 포스터">
+                </p>
+    
+                <p class="button button1">
+                    <a href="#">
+                        MORE <br />
+                        &gt;
+                    </a>
+                    <span></span>
+                    <span></span>
+                </p>
+                
+            </article>
+
+            <p>
+                <a href="#">
+                    Scroll
+                    <span>
+                        <span></span>
+                    </span>
+                </a>
+            </p>
+        </section>
+
+        
+        <section class="cont1">
+            <h2 class="sr-only">story</h2>
+            <span></span>
+            <span></span>
+            <article class="pro">
+                <h3>PROGRAM</h3>
+                <p>범어 아트 스트리트에서 준비한 다양한 교육프로그램을 만나보세요</p>
+                <ul>
+                    <li>
+                        <div class="pro-thumb">
+                            <h5 class="sr-only">오직 한가족만을 위한 범어아트스트리트 윈도우콘서트</h5>
+                            <p class="sr-only">PART2. 공연으로 만나는 세계명작</p>
+                        </div>
+
+                        <div class="pro-info">
+                            <h4 class="pro-tit"><a href="#">12. 19(토) 공연으로 만나는 세계 명작</a></h4>
+
+                            <ul class="list_info">
+                                <!-- 프로그램 날짜 -->
+                                <li><span>날짜</span>12/19</li>
+                                <!-- 프로그램 시간 -->
+                                <li><span>시간</span>14 : 00</li>
+                                <!-- 프로그램 장소 -->
+                                <li><span>장소</span>범어아트스트리트 스페이스 3</li>
+                            </ul>
+                            <ul class="list_personnel">
+                                <!-- 총 모집인원수 -->
+                                <li>총 모집인원 <span>1명</span></li>
+                                <!-- 현재 신청가능 인원수 -->
+                                <!-- 신청가능인원수가 0명일때 li에 클레스.none 추가-->
+                                <li class="on">
+                                    <a href="#">
+                                        신청하기
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pro-thumb">
+                            <h5 class="sr-only">오직 한가족만을 위한 범어아트스트리트 윈도우콘서트</h5>
+                            <p class="sr-only">PART2. 공연으로 만나는 세계명작</p>
+                        </div>
+
+                        <div class="pro-info">
+                            <h4 class="pro-tit"><a href="#">12.19(토) 감성음악콘서트</a></h4>
+
+                            <ul class="list_info">
+                                <!-- 프로그램 날짜 -->
+                                <li><span>날짜</span>12/19</li>
+                                <!-- 프로그램 시간 -->
+                                <li><span>시간</span>12 : 30</li>
+                                <!-- 프로그램 장소 -->
+                                <li><span>장소</span>범어아트스트리트 스페이스 3</li>
+                            </ul>
+                            <ul class="list_personnel">
+                                <!-- 총 모집인원수 -->
+                                <li>총 모집인원 <span>1명</span></li>
+                                <!-- 현재 신청가능 인원수 -->
+                                <!-- 신청가능인원수가 0명일때 li에 클레스.none 추가-->
+                                <li>
+                                    <a href="#">
+                                        신청 마감
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pro-thumb">
+                            <h5 class="sr-only">스트리트 페인팅 'Walking Through'</h5>
+                            <p class="sr-only">10분이면 OK! 길바닥에서 득템하는 나만의 그림</p>
+                        </div>
+
+                        <div class="pro-info">
+                            <h4 class="pro-tit"><a href="#">12.19(토) 스트리트 페인팅 (현장 선착순!)</a></h4>
+
+                            <ul class="list_info">
+                                <!-- 프로그램 날짜 -->
+                                <li><span>날짜</span>12/19</li>
+                                <!-- 프로그램 시간 -->
+                                <li><span>시간</span>14 : 00</li>
+                                <!-- 프로그램 장소 -->
+                                <li><span>장소</span>범어아트스트리트 스페이스 3</li>
+                            </ul>
+                            <ul class="list_personnel">
+                                <!-- 총 모집인원수 -->
+                                <li>총 모집인원 <span>1명</span></li>
+                                <!-- 현재 신청가능 인원수 -->
+                                <!-- 신청가능인원수가 0명일때 li에 클레스.none 추가-->
+                                <li>
+                                    <a href="#">
+                                        신청마감
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                <p class="pro-viewBtn"><a href="#">VIEW MORE</a></p>
+            </article>
+        </section>
+        
+        <section class="cont2">
+            <article class="info">
+                <h3 class="sr-only">info</h3>
+
+                <div class="info-slides">
+                    <div class="tit">
+                        <h4>
+                            Exhibition
+                            <span>행사·전시안내</span>
+                        </h4>
+                        <p class="button button2">
+                            <a href="#">
+                                MORE <br />
+                                <span>&gt;</span>
+                            </a>
+                            <span></span>
+                            <span></span>
+                        </p>
+                    </div>
+                    
+                    <ul>
+                        <li class="on">
+                            <a href="#">
+                                전시1
+                            </a>
+                            <div>
+                                <p>전시일정</p>
+                                <h5>
+                                    2021 범어아트스트리트<br /> 지역예술인 기획초대전 &lt;인류세 ANTHROPOCENE_Save Our Planet&gt;
+                                </h5>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">
+                                전시2
+                            </a>
+                            <div>
+                                <p>전시일정</p>
+                                <h5>
+                                    2020 범어아트스트리트<br /> 범어길프로젝트 3부 &lt;안녕, 초록씨&gt;
+                                </h5>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">
+                                전시3
+                            </a>
+                            <div>
+                                <p>전시일정</p>
+                                <h5>
+                                    범어아트스트리트 입주예술인 <br />릴레이 그룹전 2부
+                                </h5>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">
+                                전시4
+                            </a>
+                            <div>
+                                <p>전시일정</p>
+                                <h5>
+                                    범어아트스트리트 입주예술인 <br />릴레이전 &lt;정경주, 김민주&gt;
+                                </h5>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">
+                                전시5
+                            </a>
+                            <div>
+                                <p>전시일정</p>
+                                <h5>
+                                    범어아트스트리트 장애인 <br />예술지원 프로젝트 &lt; WE 展 &gt;
+                                </h5>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">
+                                전시6
+                            </a>
+                            <div>
+                                <p>전시일정</p>
+                                <h5>
+                                    2020 범어아트스트리트<br /> 범어길프로젝트 4부 &lt;The Music Festival:Rebirth&gt;
+                                </h5>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <div class="control">
+                        <p class="prev"><a href="#">prev</a></p>
+                        <p class="next"><a href="#">next</a></p>
+                    </div>
+                </div>
+
+                <div class="info-writer">
+                    <p></p>
+                    <div>
+                        <h4>
+                            WRITER
+                            <span>입주작가</span>
+                        </h4>
+                        <p class="button button1">
+                            <a href="#">
+                                MORE <br />
+                                &gt;
+                            </a>
+                            <span></span>
+                            <span></span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="info-space">
+                    <p>
+                        <span>범어 아티스트리트</span>
+                        우리의 출·퇴근길이 <br />
+                        예술의 공간으로
+                    </p>
+
+                    <p></p>
+                    
+                    <div>
+                        
+                        <h4>
+                            SPACE
+                            <span>공간안내</span>
+                        </h4>
+                        <p  class="button button2">
+                            <a href="#">
+                                MORE <br />
+                                <span>&gt;</span>
+                            </a>
+                            <span></span>
+                            <span></span>
+                        </p>
+                    </div>
+                </div>
+            </article>
+        </section>    
+        
+        <section class="notice">
+            <h2 class="sr-only">안내</h2>
+            <span></span>
+            <span></span>
+            <article>
+                <h3>NOTICE</h3>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <h5>범어아트스트리트의 애칭을 지어주세요! 범어아트스트리트 &lt;애칭 공모전&gt;</h5>
+
+                            <p>2021-03-30</p>
+                        </a>
+                    </li>
+                    <li class="notice-center">
+                        <a href="#">
+                            <h5>2021년도 대구예술발전소 입주작가 공모 안내</h5>
+
+                            <p>2021-01-08</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <h5>12.27.(일) &lt;엄마,아빠랑 신나는 범어데이!&gt; 취소안내</h5>
+                            <p class="notice-info">
+                                대구문화재단이 운영하는 <br />범어아트스트리트는 대구광역시코로나19방역지침에 따라,
+                                12월 27일(일) 예정되어있던 &lsquo; 엄마, 아빠랑 신나는 범어데이! &rsquo;가 취소되었습니다. 
+                                &nbsp;
+                                범어데이에 소중한 시간을 내셔서 신쳥해주신 가족분들께 죄송합니다.
+                                &nbsp;
+                                대구시민여러분들의 안전을 위한 조치로 앞으로 더 나은 문화예술프로그램으로 찾아 뵙겠습니다.
+                                &nbsp;
+                                감사합니다.
+                            </p>
+                            <p>2020-12-22</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <h5>12.27.(일) &lt;엄마,아빠랑 신나는 범어데이!&gt; 신청하기</h5>
+                            <p class="notice-info">
+                                범어아트스트리트의 대표 가족문화체험 프로그램!
+                                &lt;엄마, 아빠랑 신나는 범어데이!&gt;가 12월27일(일)에 진행됩니다!
+
+                                올 한 해 동안 &lt;범어데이&gt;에 관심가져주시고,
+                                함께 참여해 주신 많은 가족분들께 진심으로 감사드립니다.
+                                
+                                올해 마지막까지 예술로 따뜻한 연말 보내실 수 있도록
+                                범어아트스트리트가 노력하겠습니다!
+                                
+                                
+                                [신청링크 클릭]
+                                https://forms.gle/RgBtepG3M1B9bUaZ7
+                                
+                                &nbsp;
+                            </p>
+
+                            <p>2020-12-20</p>
+                        </a>
+                    </li>
+                    <li class="notice-center">
+                        <a href="#">
+                            <h5>2020 예술인 심리상담 지원안내</h5>
+
+                            <p>2020-11-27</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <h5>[2020 지역장애인 문화예술 특성화 지원사업] 청각 장애인의 문화 향유를 위한 참여자 모집 안내</h5>
+
+                            <p>2020-11-12</p>
+                        </a>
+                    </li>
+                </ul>
+
+                <p class="notice-viewBtn"><a href="#">VIEU MORE &nbsp; &gt;</a></p>
+            </article>
+        </section>
+
+        <footer>
+            <div>
+                <h2>로고</h2>
+                <address>대구 광역시 수성구 달구벌대로 지하 2410 지하철 2호선 범어역 지하도 8번출구</address>
+                <p>
+                    <span>CALL</span> 053-430-1267
+                    |
+                    <span>FAX</span> 053-756-1248
+                </p>
+    
+                <ul class="family-site">
+                    <li><a href="#">FAMILY SITE <span>열기</span></a></li>
+                    <li><a href="#">대구문화재단</a></li>
+                </ul>
+    
+                <ul class="sns">
+                    <li><a href="#">페이스북</a></li>
+                    <li><a href="#">인스타그램</a></li>
+                    <li><a href="#">트위터</a></li>
+                </ul>
+    
+                <address class="copyright">Redesign by 2021.04.29 장기봉. </address>
+    
+                <p class="top-button"><a href="#">top</a></p>
+            </div>
+        </footer>
+
+
+    </div>
+</body>
+</html>
